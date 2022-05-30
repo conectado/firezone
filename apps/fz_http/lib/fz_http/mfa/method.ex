@@ -1,4 +1,8 @@
 defmodule FzHttp.MFA.Method do
+  @moduledoc """
+  Multi Factor Authentication methods
+  """
+
   use Ecto.Schema
   import Ecto.Changeset
 
